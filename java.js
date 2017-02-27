@@ -1,10 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $("#button").click(function() {
-        $("#input").val();
-        
-    }
-    
-    
-    
+      var name = $("#input").val();
+      if("peter parker" === name) {
+        $("p").append("YOU ARE CORRECT!!!! MUWAHAHAHAHAHAHAHA!!!"); 
+     }
+    })
+   
     
 })
